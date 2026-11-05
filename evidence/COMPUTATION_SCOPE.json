@@ -1,0 +1,102 @@
+{
+  "date_utc": "2026-11-04",
+  "replay_command": "bash replay.sh replay",
+  "exit_status": 0,
+  "python": "3.12.14",
+  "arithmetic": "exact integers and fractions.Fraction; standard library only",
+  "final_pdf_sha256": "b7e0ec83b9c8303e0cb6033376a98cd791493021713b12eeee9ae2918fee09e2",
+  "main_tex_sha256": "92952f73a430aba2f052d67082b810e31a09ad60d06c0b0b180ed84ca90d314f",
+  "proof_required_boundary": [
+    {
+      "k": 2,
+      "lift_bound": 3,
+      "candidates": 2080,
+      "accepted_lifts": 772,
+      "count": 17
+    },
+    {
+      "k": 3,
+      "lift_bound": 4,
+      "candidates": 3952,
+      "accepted_lifts": 938,
+      "count": 45
+    },
+    {
+      "k": 4,
+      "lift_bound": 4,
+      "candidates": 2522,
+      "accepted_lifts": 416,
+      "count": 47
+    }
+  ],
+  "extra_boundary_checks_k": [
+    5,
+    6
+  ],
+  "boundary_total_classes": 201,
+  "strict_parameters": [
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      8
+    ],
+    [
+      3,
+      10
+    ],
+    [
+      4,
+      10
+    ]
+  ],
+  "strict_total_classes": 3921,
+  "strict_all_short_outer_directions_checked": true,
+  "diagonal_b_range": [
+    3,
+    10
+  ],
+  "diagonal_total_classes": 3764,
+  "diagonal_full_three_dimensional_width_checked_b": [
+    3,
+    4,
+    5
+  ],
+  "diagonal_full_and_four_family_class_sets_equal": true,
+  "additional_lattice_checks": "B/C b=3..9; A/D b=3..24; scalar minimization ranges documented in diagonal_lattice_check.json",
+  "circuit_quotient_classes": 34,
+  "full_circuit_contribution": 29,
+  "limits": [
+    "Finite comparisons do not prove unbounded parameter formulas.",
+    "The k=2,3,4 enumeration is a finite proof component only because the manuscript proves its bounds and exact tests.",
+    "The symbolic all-q bridge remains a written mathematical proof, not a finite extrapolation.",
+    "Historical Lean certificate covers six edge-covector statements only and was not rerun in this revision.",
+    "AI-assisted checking does not constitute independent human verification."
+  ]
+}

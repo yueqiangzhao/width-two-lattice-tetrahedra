@@ -1,0 +1,54 @@
+{
+  "mechanism": "direct integer affine maps over 24 vertex bijections",
+  "pairwise_comparisons": 4278,
+  "accepted_lift_comparisons": 3274,
+  "dataset_comparisons": 201,
+  "dataset_width_checks": 201,
+  "independent_width_representatives": 201,
+  "branches": [
+    {
+      "k": 2,
+      "enumerated_count": 17,
+      "dataset_count": 17,
+      "dataset_unique_count": 17,
+      "canonical_sets_equal": true
+    },
+    {
+      "k": 3,
+      "enumerated_count": 45,
+      "dataset_count": 45,
+      "dataset_unique_count": 45,
+      "canonical_sets_equal": true
+    },
+    {
+      "k": 4,
+      "enumerated_count": 47,
+      "dataset_count": 47,
+      "dataset_unique_count": 47,
+      "canonical_sets_equal": true
+    },
+    {
+      "k": 5,
+      "enumerated_count": 45,
+      "dataset_count": 45,
+      "dataset_unique_count": 45,
+      "canonical_sets_equal": true
+    },
+    {
+      "k": 6,
+      "enumerated_count": 47,
+      "dataset_count": 47,
+      "dataset_unique_count": 47,
+      "canonical_sets_equal": true
+    }
+  ],
+  "elapsed_seconds": 4.62998380299905,
+  "status": "COMPUTATIONALLY VERIFIED IN SCOPE",
+  "hashes": {
+    "outputs/Q024/check_finite.py": "25ddd6a485b5684804834a4f295c6b65fd46adf39ae1a818a53f9714feee5544",
+    "replay/enum_22k.json": "e605c999e5234972cf356e15e7a8c8ccf1c82d158fff91a6bf0f287bd572f8c7",
+    "work/q024/sources/width_2_tetrahedra_v2.txt": "3a12fb3f19a3ecdc2bb8500dbf67ab84a615af6f54ce2bd906eb19285023fd0a",
+    "outputs/Q024/enumerate.py": "66ea4c0cb1e674d80ce34913039c1708295fd6ea67ed9dc71dd83a6125188adb"
+  },
+  "replay_command": "outputs/Q024/check_finite.py --finite replay/enum_22k.json --dataset work/q024/sources/width_2_tetrahedra_v2.txt --output replay/finite_check.json"
+}

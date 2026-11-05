@@ -1,0 +1,857 @@
+{
+  "GATE_NAME": "COMPUTATION_GATE",
+  "GATE_SCOPE": "finite planar classification, 34 full-circuit residuals, seven exact orbit/strip-offset certificates, all thirteen recipes at k=5,6",
+  "GATE_STATUS": "PASS-WITH-LIMITATIONS",
+  "COMPUTATION_VERDICT": "EXACT_EXHAUSTIVE",
+  "EVIDENCE": "independent direct affine maps, Fraction Gaussian solves, determinant indices, weighted interval coefficient bounds",
+  "LIMITATIONS": [
+    "No theorem-wide all-k MATH_GATE is issued.",
+    "The supplied theoretical finite-to-all bridge is outside this computation gate.",
+    "The six degenerate recipes are compared only at k=5,6; their all-k equivalence/width proofs remain outside this gate."
+  ],
+  "HANDOFF": "initiating mathematical-research workflow",
+  "software": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "packages": "standard library only",
+    "arithmetic": "integers and fractions.Fraction",
+    "processes": 1
+  },
+  "replay_command": "outputs/Q024/check_certificates.py --circuit replay/circuit_certificate.json --finite replay/enum_22k.json --output replay/computation_certificate.json",
+  "hashes": {
+    "outputs/Q024/check_certificates.py": "0ba110a623add8ef7590a6bad2e79488c720dd50e3978c6cb6a051dc1989f3b0",
+    "replay/circuit_certificate.json": "f797dba8f763872e0d8fdafac12a523d046eed5df4f0a5435487debe64b17d4c",
+    "replay/enum_22k.json": "e605c999e5234972cf356e15e7a8c8ccf1c82d158fff91a6bf0f287bd572f8c7"
+  },
+  "proof_input": null,
+  "planar_classification": {
+    "rank_two_box_multisets": 354,
+    "rejected_width_one": 260,
+    "direct_affine_classes": 13,
+    "mapping_to_enumerator": [
+      3,
+      1,
+      0,
+      5,
+      4,
+      7,
+      6,
+      9,
+      11,
+      8,
+      12,
+      2,
+      10
+    ]
+  },
+  "full_circuit_certificates": [
+    {
+      "projection_index": 7,
+      "primitive_relation": [
+        3,
+        -4,
+        2,
+        -1
+      ],
+      "index": 5,
+      "torsion_order": 1,
+      "residual_count": 5,
+      "direct_automorphism_count": 1,
+      "residual_orbits": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "width_offsets": [
+        {
+          "C": 0,
+          "q0": 0,
+          "minimizer": [
+            0,
+            0
+          ],
+          "independent_coefficient_box": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient_candidates": 1,
+          "small_exceptions": []
+        },
+        {
+          "C": 1,
+          "q0": 0,
+          "minimizer": [
+            0,
+            0
+          ],
+          "independent_coefficient_box": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient_candidates": 1,
+          "small_exceptions": []
+        },
+        {
+          "C": 1,
+          "q0": 0,
+          "minimizer": [
+            -1,
+            0
+          ],
+          "independent_coefficient_box": [
+            -1,
+            0,
+            0,
+            0
+          ],
+          "coefficient_candidates": 2,
+          "small_exceptions": []
+        },
+        {
+          "C": 1,
+          "q0": 0,
+          "minimizer": [
+            -1,
+            0
+          ],
+          "independent_coefficient_box": [
+            -1,
+            0,
+            0,
+            1
+          ],
+          "coefficient_candidates": 3,
+          "small_exceptions": []
+        },
+        {
+          "C": 1,
+          "q0": 0,
+          "minimizer": [
+            -2,
+            1
+          ],
+          "independent_coefficient_box": [
+            -2,
+            0,
+            0,
+            1
+          ],
+          "coefficient_candidates": 5,
+          "small_exceptions": []
+        }
+      ],
+      "orbit_count": 5
+    },
+    {
+      "projection_index": 8,
+      "primitive_relation": [
+        3,
+        -2,
+        -2,
+        1
+      ],
+      "index": 4,
+      "torsion_order": 1,
+      "residual_count": 4,
+      "direct_automorphism_count": 2,
+      "residual_orbits": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "width_offsets": [
+        {
+          "C": 0,
+          "q0": 0,
+          "minimizer": [
+            0,
+            0
+          ],
+          "independent_coefficient_box": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient_candidates": 1,
+          "small_exceptions": []
+        },
+        {
+          "C": 1,
+          "q0": 0,
+          "minimizer": [
+            -1,
+            0
+          ],
+          "independent_coefficient_box": [
+            -1,
+            0,
+            -1,
+            0
+          ],
+          "coefficient_candidates": 4,
+          "small_exceptions": []
+        },
+        {
+          "C": 1,
+          "q0": 0,
+          "minimizer": [
+            -1,
+            0
+          ],
+          "independent_coefficient_box": [
+            -2,
+            1,
+            -2,
+            1
+          ],
+          "coefficient_candidates": 11,
+          "small_exceptions": []
+        },
+        {
+          "C": 1,
+          "q0": 0,
+          "minimizer": [
+            -1,
+            -1
+          ],
+          "independent_coefficient_box": [
+            -3,
+            1,
+            -3,
+            1
+          ],
+          "coefficient_candidates": 20,
+          "small_exceptions": []
+        }
+      ],
+      "orbit_count": 4
+    },
+    {
+      "projection_index": 9,
+      "primitive_relation": [
+        1,
+        1,
+        -4,
+        2
+      ],
+      "index": 4,
+      "torsion_order": 1,
+      "residual_count": 4,
+      "direct_automorphism_count": 2,
+      "residual_orbits": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "width_offsets": [
+        {
+          "C": 0,
+          "q0": 0,
+          "minimizer": [
+            0,
+            0
+          ],
+          "independent_coefficient_box": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient_candidates": 1,
+          "small_exceptions": []
+        },
+        {
+          "C": 1,
+          "q0": 0,
+          "minimizer": [
+            -1,
+            0
+          ],
+          "independent_coefficient_box": [
+            -1,
+            0,
+            -1,
+            1
+          ],
+          "coefficient_candidates": 4,
+          "small_exceptions": []
+        },
+        {
+          "C": 1,
+          "q0": 0,
+          "minimizer": [
+            0,
+            -1
+          ],
+          "independent_coefficient_box": [
+            0,
+            1,
+            -2,
+            1
+          ],
+          "coefficient_candidates": 6,
+          "small_exceptions": []
+        },
+        {
+          "C": 1,
+          "q0": 0,
+          "minimizer": [
+            0,
+            -1
+          ],
+          "independent_coefficient_box": [
+            0,
+            0,
+            -1,
+            0
+          ],
+          "coefficient_candidates": 2,
+          "small_exceptions": []
+        }
+      ],
+      "orbit_count": 4
+    },
+    {
+      "projection_index": 10,
+      "primitive_relation": [
+        2,
+        -2,
+        -1,
+        1
+      ],
+      "index": 6,
+      "torsion_order": 2,
+      "residual_count": 6,
+      "direct_automorphism_count": 1,
+      "residual_orbits": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "width_offsets": [
+        {
+          "C": 0,
+          "q0": 0,
+          "minimizer": [
+            0,
+            0
+          ],
+          "independent_coefficient_box": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient_candidates": 1,
+          "small_exceptions": []
+        },
+        {
+          "C": 1,
+          "q0": 0,
+          "minimizer": [
+            0,
+            -1
+          ],
+          "independent_coefficient_box": [
+            0,
+            0,
+            -1,
+            0
+          ],
+          "coefficient_candidates": 2,
+          "small_exceptions": []
+        },
+        {
+          "C": 1,
+          "q0": 0,
+          "minimizer": [
+            0,
+            -1
+          ],
+          "independent_coefficient_box": [
+            -1,
+            1,
+            -2,
+            0
+          ],
+          "coefficient_candidates": 7,
+          "small_exceptions": []
+        },
+        {
+          "C": 1,
+          "q0": 0,
+          "minimizer": [
+            -1,
+            -1
+          ],
+          "independent_coefficient_box": [
+            -1,
+            1,
+            -3,
+            0
+          ],
+          "coefficient_candidates": 10,
+          "small_exceptions": []
+        },
+        {
+          "C": 1,
+          "q0": 0,
+          "minimizer": [
+            -1,
+            -1
+          ],
+          "independent_coefficient_box": [
+            -2,
+            2,
+            -4,
+            0
+          ],
+          "coefficient_candidates": 19,
+          "small_exceptions": []
+        },
+        {
+          "C": 1,
+          "q0": 0,
+          "minimizer": [
+            -1,
+            -2
+          ],
+          "independent_coefficient_box": [
+            -2,
+            2,
+            -5,
+            0
+          ],
+          "coefficient_candidates": 24,
+          "small_exceptions": []
+        }
+      ],
+      "orbit_count": 6
+    },
+    {
+      "projection_index": 11,
+      "primitive_relation": [
+        1,
+        -3,
+        1,
+        1
+      ],
+      "index": 3,
+      "torsion_order": 1,
+      "residual_count": 3,
+      "direct_automorphism_count": 6,
+      "residual_orbits": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "width_offsets": [
+        {
+          "C": 0,
+          "q0": 0,
+          "minimizer": [
+            0,
+            0
+          ],
+          "independent_coefficient_box": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient_candidates": 1,
+          "small_exceptions": []
+        },
+        {
+          "C": 1,
+          "q0": 0,
+          "minimizer": [
+            -1,
+            0
+          ],
+          "independent_coefficient_box": [
+            -2,
+            0,
+            -1,
+            1
+          ],
+          "coefficient_candidates": 6,
+          "small_exceptions": []
+        },
+        {
+          "C": 1,
+          "q0": 0,
+          "minimizer": [
+            -2,
+            1
+          ],
+          "independent_coefficient_box": [
+            -4,
+            0,
+            -2,
+            2
+          ],
+          "coefficient_candidates": 15,
+          "small_exceptions": []
+        }
+      ],
+      "orbit_count": 3
+    },
+    {
+      "projection_index": 12,
+      "primitive_relation": [
+        1,
+        -1,
+        -1,
+        1
+      ],
+      "index": 4,
+      "torsion_order": 2,
+      "residual_count": 4,
+      "direct_automorphism_count": 8,
+      "residual_orbits": [
+        [
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "width_offsets": [
+        {
+          "C": 0,
+          "q0": 0,
+          "minimizer": [
+            0,
+            0
+          ],
+          "independent_coefficient_box": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient_candidates": 1,
+          "small_exceptions": []
+        },
+        {
+          "C": 1,
+          "q0": 0,
+          "minimizer": [
+            0,
+            -1
+          ],
+          "independent_coefficient_box": [
+            0,
+            0,
+            -1,
+            0
+          ],
+          "coefficient_candidates": 2,
+          "small_exceptions": []
+        },
+        {
+          "C": 1,
+          "q0": 0,
+          "minimizer": [
+            -1,
+            1
+          ],
+          "independent_coefficient_box": [
+            -1,
+            0,
+            0,
+            1
+          ],
+          "coefficient_candidates": 2,
+          "small_exceptions": []
+        },
+        {
+          "C": 1,
+          "q0": 0,
+          "minimizer": [
+            -1,
+            0
+          ],
+          "independent_coefficient_box": [
+            -1,
+            0,
+            -1,
+            1
+          ],
+          "coefficient_candidates": 4,
+          "small_exceptions": []
+        }
+      ],
+      "orbit_count": 3
+    },
+    {
+      "projection_index": 13,
+      "primitive_relation": [
+        1,
+        -1,
+        -1,
+        1
+      ],
+      "index": 8,
+      "torsion_order": 4,
+      "residual_count": 8,
+      "direct_automorphism_count": 8,
+      "residual_orbits": [
+        [
+          0
+        ],
+        [
+          1,
+          3,
+          4,
+          6
+        ],
+        [
+          2
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "width_offsets": [
+        {
+          "C": 0,
+          "q0": 0,
+          "minimizer": [
+            0,
+            0
+          ],
+          "independent_coefficient_box": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient_candidates": 1,
+          "small_exceptions": []
+        },
+        {
+          "C": 1,
+          "q0": 0,
+          "minimizer": [
+            0,
+            0
+          ],
+          "independent_coefficient_box": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient_candidates": 1,
+          "small_exceptions": []
+        },
+        {
+          "C": 1,
+          "q0": 1,
+          "minimizer": [
+            -1,
+            -1
+          ],
+          "independent_coefficient_box": [
+            -1,
+            0,
+            -1,
+            0
+          ],
+          "coefficient_candidates": 4,
+          "small_exceptions": [
+            {
+              "q": 0,
+              "degenerate": true
+            }
+          ]
+        },
+        {
+          "C": 1,
+          "q0": 0,
+          "minimizer": [
+            -1,
+            -1
+          ],
+          "independent_coefficient_box": [
+            -1,
+            0,
+            -1,
+            0
+          ],
+          "coefficient_candidates": 4,
+          "small_exceptions": []
+        },
+        {
+          "C": 1,
+          "q0": 0,
+          "minimizer": [
+            0,
+            0
+          ],
+          "independent_coefficient_box": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient_candidates": 1,
+          "small_exceptions": []
+        },
+        {
+          "C": 1,
+          "q0": 0,
+          "minimizer": [
+            -1,
+            0
+          ],
+          "independent_coefficient_box": [
+            -1,
+            0,
+            0,
+            0
+          ],
+          "coefficient_candidates": 2,
+          "small_exceptions": []
+        },
+        {
+          "C": 1,
+          "q0": 0,
+          "minimizer": [
+            -1,
+            0
+          ],
+          "independent_coefficient_box": [
+            -1,
+            0,
+            -1,
+            0
+          ],
+          "coefficient_candidates": 4,
+          "small_exceptions": []
+        },
+        {
+          "C": 1,
+          "q0": 0,
+          "minimizer": [
+            -1,
+            -1
+          ],
+          "independent_coefficient_box": [
+            -2,
+            0,
+            -1,
+            0
+          ],
+          "coefficient_candidates": 6,
+          "small_exceptions": []
+        }
+      ],
+      "orbit_count": 4
+    }
+  ],
+  "contribution": 29,
+  "general_recipe_finite_matches": [
+    {
+      "k": 5,
+      "recipe_count": 29,
+      "finite_full_circuit_count": 29,
+      "direct_affine_bijection": true,
+      "degenerate_recipe_contributions": [
+        2,
+        2,
+        3,
+        2,
+        4,
+        3
+      ],
+      "complete_recipe_count": 45,
+      "finite_tetrahedra_count": 45,
+      "complete_direct_affine_bijection": true
+    },
+    {
+      "k": 6,
+      "recipe_count": 29,
+      "finite_full_circuit_count": 29,
+      "direct_affine_bijection": true,
+      "degenerate_recipe_contributions": [
+        2,
+        3,
+        3,
+        3,
+        4,
+        3
+      ],
+      "complete_recipe_count": 47,
+      "finite_tetrahedra_count": 47,
+      "complete_direct_affine_bijection": true
+    }
+  ],
+  "warnings": [],
+  "failures": [],
+  "elapsed_seconds": 5.143421146000037
+}

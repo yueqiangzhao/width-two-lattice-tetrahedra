@@ -1,0 +1,6 @@
+'Q024.edge_numerators' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Q024.integral_covector_exists_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Q024.integral_covector_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Q024.integral_covector_reconstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Q024.integral_covector_existsUnique_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Q024.integral_reconstruction_solves' depends on axioms: [propext, Classical.choice, Quot.sound]

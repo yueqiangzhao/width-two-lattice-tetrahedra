@@ -1,0 +1,142 @@
+{
+  "scope": "exact finite cases displayed; source agreement is not an infinite proof",
+  "sha256": {
+    "outputs/Q024/classify_strict.py": "2596e13f84d03234bb015feb93ef701e40f52ec3691da1f047bf508919b4d795",
+    "outputs/Q024/enumerate.py": "66ea4c0cb1e674d80ce34913039c1708295fd6ea67ed9dc71dd83a6125188adb",
+    "outputs/Q024/lift_circuits.py": "f3f765d69fbfe1e90e0282fe9b5383376e665c99c9833753c38f52c821750079",
+    "work/q024/check_strict_constructor.py": "da6088f588dfb0bb1add8642c8dccf2cd5a9c96e436287798ae8f94412359026",
+    "work/q024/sources/width_2_tetrahedra_v2.txt": "3a12fb3f19a3ecdc2bb8500dbf67ab84a615af6f54ce2bd906eb19285023fd0a"
+  },
+  "results": [
+    {
+      "b": 3,
+      "k": 4,
+      "count": 178,
+      "by_family": {
+        "A": 20,
+        "B": 36,
+        "C": 71,
+        "D": 51
+      },
+      "full_affine_class_sets_equal": true,
+      "all_short_outer_directions_checked": true
+    },
+    {
+      "b": 3,
+      "k": 5,
+      "count": 175,
+      "by_family": {
+        "A": 19,
+        "B": 35,
+        "C": 70,
+        "D": 51
+      },
+      "full_affine_class_sets_equal": true,
+      "all_short_outer_directions_checked": true
+    },
+    {
+      "b": 4,
+      "k": 5,
+      "count": 320,
+      "by_family": {
+        "A": 35,
+        "B": 64,
+        "C": 129,
+        "D": 92
+      },
+      "full_affine_class_sets_equal": true,
+      "all_short_outer_directions_checked": true
+    },
+    {
+      "b": 4,
+      "k": 6,
+      "count": 325,
+      "by_family": {
+        "A": 38,
+        "B": 65,
+        "C": 130,
+        "D": 92
+      },
+      "full_affine_class_sets_equal": true,
+      "all_short_outer_directions_checked": true
+    },
+    {
+      "b": 5,
+      "k": 6,
+      "count": 493,
+      "by_family": {
+        "A": 52,
+        "B": 96,
+        "C": 202,
+        "D": 143
+      },
+      "full_affine_class_sets_equal": true,
+      "all_short_outer_directions_checked": true
+    },
+    {
+      "b": 5,
+      "k": 7,
+      "count": 490,
+      "by_family": {
+        "A": 51,
+        "B": 95,
+        "C": 201,
+        "D": 143
+      },
+      "full_affine_class_sets_equal": true,
+      "all_short_outer_directions_checked": true
+    },
+    {
+      "b": 6,
+      "k": 7,
+      "count": 716,
+      "by_family": {
+        "A": 75,
+        "B": 139,
+        "C": 294,
+        "D": 208
+      },
+      "full_affine_class_sets_equal": true,
+      "all_short_outer_directions_checked": true
+    },
+    {
+      "b": 6,
+      "k": 8,
+      "count": 721,
+      "by_family": {
+        "A": 78,
+        "B": 140,
+        "C": 295,
+        "D": 208
+      },
+      "full_affine_class_sets_equal": true,
+      "all_short_outer_directions_checked": true
+    },
+    {
+      "b": 3,
+      "k": 10,
+      "count": 178,
+      "by_family": {
+        "A": 20,
+        "B": 36,
+        "C": 71,
+        "D": 51
+      },
+      "full_affine_class_sets_equal": true,
+      "all_short_outer_directions_checked": true
+    },
+    {
+      "b": 4,
+      "k": 10,
+      "count": 325,
+      "by_family": {
+        "A": 38,
+        "B": 65,
+        "C": 130,
+        "D": 92
+      },
+      "full_affine_class_sets_equal": true,
+      "all_short_outer_directions_checked": true
+    }
+  ]
+}

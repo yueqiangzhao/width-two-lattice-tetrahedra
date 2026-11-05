@@ -1,0 +1,10 @@
+# Generated on replay
+replay/
+__pycache__/
+*.py[cod]
+
+# Locally downloaded third-party comparison data (not redistributed)
+work/q024/sources/
+
+# Generated checker output not part of the reference snapshot
+work/q024/check_strict_constructor.json
